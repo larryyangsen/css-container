@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .page {
     max-width: 1000px;
     margin: 0 auto;
@@ -14,6 +20,12 @@
     .card {
         display: grid;
         grid-template-columns: 1fr 3fr;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
     }
 }
 @container (min-width: 900px) {
@@ -36,4 +48,10 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 250px;
+}
+.info p {
+    max-width: 100%;
+}
+.info h1 {
+    text-align: center;
 }
