@@ -17,7 +17,7 @@
     {
         "name": "pikachu",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
-        "text": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger"
+        "text": "It has small electric sacs on both its cheeks. If threatened, it looses electric charges from the sacs."
     },
     {
         "name": "eevee",
